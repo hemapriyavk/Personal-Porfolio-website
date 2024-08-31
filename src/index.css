@@ -854,6 +854,10 @@ section#programming-languages {
     justify-content: center;
     margin-top: 50px;
   }
+
+  .project-card-link{
+    text-decoration: none;
+  }
   
   .project-card {
     vertical-align: middle;
