@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link , useLocation } from 'react-router-dom';
-import resume from "./file/Resume.pdf";
+import resume from "./file/Hemapriya_Resume.pdf";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();

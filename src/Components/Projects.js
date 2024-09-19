@@ -4,6 +4,14 @@ import React from 'react';
 
 const projects = [
   {
+    title: "HP Blogs",
+    description: "CRUD functionality for blog posts, along with pagination and search capabilities",
+    image: "https://raw.githubusercontent.com/hemapriyavk/Blog_application_using_MERN_Stack/refs/heads/master/Output.png",
+    video: "https://drive.google.com/file/d/1u6mmVosVeR2mfciChYU1yGj_6_uYb480/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/Blog_application_using_MERN_Stack.git",
+    tools: ["MERN Stack", "Bootstrap", "Axios"],
+  },
+  {
     title: "HP Chatbot",
     description: "Virtual Assistant - ability to handle basic conversational tasks",
     image: "https://raw.githubusercontent.com/hemapriyavk/Simple-chatbot-using-JavaScript/master/HP_Chatbot.png",
