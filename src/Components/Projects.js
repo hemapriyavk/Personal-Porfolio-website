@@ -7,34 +7,50 @@ const projects = [
     title: "HP Cloth Store",
     description: "Integrated user authentication, product management, and secure payment systems.",
     image: "https://raw.githubusercontent.com/hemapriyavk/E-Commerce-website-using-MERN-Stack/refs/heads/main/HP%20Cloth%20store.png",
-    video: "",
+    video: "https://drive.google.com/file/d/17wn4CCd4BatsopPVYDIKCbHo-vpA8mUE/view?usp=sharing",
     github: "https://github.com/hemapriyavk/E-Commerce-website-using-MERN-Stack",
     tools: ["MERN Stack", "Tailwind CSS"],
-    demo: "https://e-commerce-website-frontend-silk.vercel.app/"
+    demo: "https://hp-cloth-store-frontend.vercel.app/"
   },
   {
     title: "HP Blogs",
     description: "CRUD functionality for blog posts, along with pagination and search capabilities",
-    image: "https://raw.githubusercontent.com/hemapriyavk/Blog_application_using_MERN_Stack/refs/heads/master/Output.png",
-    video: "https://drive.google.com/file/d/1u6mmVosVeR2mfciChYU1yGj_6_uYb480/view?usp=sharing",
+    image: "https://raw.githubusercontent.com/hemapriyavk/Blog_application_using_MERN_Stack/refs/heads/master/HP%20blogs.png",
+    video: "https://drive.google.com/file/d/1d7jN6VGtRfIclmkJ-QqSS37edYW1_1f9/view?usp=sharing",
     github: "https://github.com/hemapriyavk/Blog_application_using_MERN_Stack.git",
     tools: ["MERN Stack", "Bootstrap"],
+    demo: "https://hp-blogs.vercel.app/"
   },
   {
-    title: "HP Chatbot",
-    description: "Virtual Assistant - ability to handle basic conversational tasks",
-    image: "https://raw.githubusercontent.com/hemapriyavk/Simple-chatbot-using-JavaScript/master/HP_Chatbot.png",
-    video: "https://drive.google.com/file/d/1DYtVQC8oULquMBLuUQ9oLSLH-AWkefUW/view?usp=sharing",
-    github: "https://github.com/hemapriyavk/Simple-chatbot-using-JavaScript",
-    tools: ["JavaScript", "HTML", "CSS"],
-  },{
     title: "Coconest Eco Resort - Demo Website",
     description: "Coconest Eco Resort is a fully responsive demo website.",
     image: "https://raw.githubusercontent.com/hemapriyavk/Website-landing-page-using-React.js-01/master/Coconest.png",
     video: "https://drive.google.com/file/d/13G7tsuHFJCE2jCR5VX-hko9G6M_wiyg1/view?usp=sharing",
     github: "https://github.com/hemapriyavk/Website-landing-page-using-React.js-01",
     tools: ["React.js"],
-    demo: "https://website-landing-page-using-react-js-01-0202.vercel.app/"
+    demo: "https://website-landing-page-using-react-js-01.vercel.app/"
+  },{
+    title: "Web Dev Company - Demo Website",
+    description: "3D responsive website created using Three.js.",
+    image: "https://raw.githubusercontent.com/hemapriyavk/3d-web-dev-design-company-sample-project/refs/heads/master/3D%20website%20-%20sample%20project.png",
+    video: "https://drive.google.com/file/d/1eIIjtiyDUKTHGILUnv7CSDeDNvYM7tB1/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/3d-web-dev-design-company-sample-project",
+    tools: ["Three.js", "React.js"],
+    demo: "https://3d-web-dev-design-company-sample-project.vercel.app/"
+  },{
+    title: "3D Website - Sample Project",
+    description: "3D model created using Blender 3D",
+    image: "https://raw.githubusercontent.com/hemapriyavk/3d-website-room-sample-project/refs/heads/master/3D%20Room.png",
+    video: "https://drive.google.com/file/d/1hi6cb1BqHvV5tO7DiAkErJsDdQhKfxeU/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/3d-website-room-sample-project",
+    tools: ["Blender", "Three.js"],
+  },{
+    title: "HP Chatbot",
+    description: "Virtual Assistant - ability to handle basic conversational tasks",
+    image: "https://raw.githubusercontent.com/hemapriyavk/Simple-chatbot-using-JavaScript/master/HP_Chatbot.png",
+    video: "https://drive.google.com/file/d/1DYtVQC8oULquMBLuUQ9oLSLH-AWkefUW/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/Simple-chatbot-using-JavaScript",
+    tools: ["JavaScript", "HTML", "CSS"],
   },{
     title: "Registration Form",
     description: "Register & Login form is a MERN stack project with user authentication.",
