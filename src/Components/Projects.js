@@ -22,6 +22,15 @@ const projects = [
     demo: "https://hp-blogs.vercel.app/"
   },
   {
+    title: "Brainwave",
+    description: "A responsive React-based UI/UX application focused on modern design and user experience.",
+    image: "https://i.postimg.cc/vZ72dykH/Brainwave.png",
+    video: "https://drive.google.com/file/d/1bNA131slDpP3a-1YTdr2E8XyRbZJ2vy6/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/Brainwave-modern-ui-ux-react-application",
+    tools: ["React.js", "Tailwind CSS"],
+    demo: "https://brainwave-modern-ui-ux-react-application.vercel.app/"
+  },
+  {
     title: "Coconest Eco Resort - Demo Website",
     description: "Coconest Eco Resort is a fully responsive demo website.",
     image: "https://raw.githubusercontent.com/hemapriyavk/Website-landing-page-using-React.js-01/master/Coconest.png",
@@ -29,7 +38,8 @@ const projects = [
     github: "https://github.com/hemapriyavk/Website-landing-page-using-React.js-01",
     tools: ["React.js"],
     demo: "https://website-landing-page-using-react-js-01.vercel.app/"
-  },{
+  },
+  {
     title: "Web Dev Company - Demo Website",
     description: "3D responsive website created using Three.js.",
     image: "https://raw.githubusercontent.com/hemapriyavk/3d-web-dev-design-company-sample-project/refs/heads/master/3D%20website%20-%20sample%20project.png",
