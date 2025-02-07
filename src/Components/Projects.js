@@ -13,6 +13,14 @@ const projects = [
     demo: "https://hp-cloth-store-frontend.vercel.app/"
   },
   {
+    title: "Tomato",
+    description: "Integrated user authentication, order management, stripe payment integration",
+    image: "https://raw.githubusercontent.com/hemapriyavk/Food-app-mern-stack/refs/heads/master/food%20app.png",
+    video: "https://drive.google.com/file/d/1GKBdQ9BicIVGKQmKhOmlPfNJ-wLWo6If/view?usp=sharing",
+    github: "https://github.com/hemapriyavk/Food-app-mern-stack",
+    tools: ["MERN Stack", "Stripe"],
+  },
+  {
     title: "HP Blogs",
     description: "CRUD functionality for blog posts, along with pagination and search capabilities",
     image: "https://raw.githubusercontent.com/hemapriyavk/Blog_application_using_MERN_Stack/refs/heads/master/HP%20blogs.png",
