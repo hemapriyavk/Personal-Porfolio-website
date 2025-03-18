@@ -15,10 +15,11 @@ const projects = [
   {
     title: "Tomato",
     description: "Integrated user authentication, order management, stripe payment integration",
-    image: "https://raw.githubusercontent.com/hemapriyavk/Food-app-mern-stack/refs/heads/master/food%20app.png",
+    image: "https://raw.githubusercontent.com/hemapriyavk/Tomato-food-app-using-mern-stack/refs/heads/master/food%20app.png",
     video: "https://drive.google.com/file/d/1GKBdQ9BicIVGKQmKhOmlPfNJ-wLWo6If/view?usp=sharing",
     github: "https://github.com/hemapriyavk/Food-app-mern-stack",
     tools: ["MERN Stack", "Stripe"],
+    demo: "https://food-delivery-app-7g1e.onrender.com/"
   },
   {
     title: "HP Blogs",
