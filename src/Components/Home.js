@@ -7,19 +7,19 @@ import Contact from './Contact';
 function Home({ showSection }) {
   return (
     <div className="home">
-      <section id="about" style={{ display: !showSection || showSection === "about" ? "block" : "none" }}>
+      <section id="about" >
       <About />
       </section>
       
-      <section id="skills" style={{ display: !showSection || showSection === "skills" ? "block" : "none" }}>
+      <section id="skills">
         <TechnicalSkill />
       </section>
 
-      <section id="projects" style={{ display: !showSection || showSection === "projects" ? "block" : "none" }}>
+      <section id="projects">
         <Projects />
       </section>
       
-      <section id="contact" style={{ display: !showSection || showSection === "contact" ? "block" : "none" }}>
+      <section id="contact">
         <Contact />
       </section>
     </div>

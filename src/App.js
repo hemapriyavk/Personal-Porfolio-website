@@ -10,10 +10,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<Home showSection="about" />} />
+          {/* <Route path="/about" element={<Home showSection="about" />} />
           <Route path="/skills" element={<Home showSection="skills" />} />
           <Route path="/projects" element={<Home showSection="projects" />} />
-          <Route path="/contact" element={<Home showSection="contact" />} />
+          <Route path="/contact" element={<Home showSection="contact" />} /> */}
           
         </Routes>
         <Footer />

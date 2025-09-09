@@ -8,7 +8,11 @@ import mongodbIcon from './icon/mongodblogo.png';
 import nodeIcon from './icon/node.webp';
 import gitIcon from './icon/git.png';
 import githubIcon from './icon/github-logo.png';
-
+import reduxIcon from './icon/redux.png';
+import mysqlIcon from './icon/mysql.png';
+import graphqlIcon from './icon/graphql.png';
+import bitbucketIcon from './icon/bitbucket.png';
+import gitlabIcon from './icon/gitlab.png';
 
 const TechnicalSkill = () => {
     const skillsRef = useRef([]);
@@ -20,9 +24,9 @@ const TechnicalSkill = () => {
             const progressBar = entry.target.querySelector('.progress-bar');
             const progress = progressBar.dataset.progress;
             
-            progressBar.style.setProperty('--progress', `${progress}%`); // Set custom property for progress
-            progressBar.classList.add('animated'); // Add a class to trigger animation
-            observer.unobserve(entry.target); // Stop observing once animation is triggered
+            progressBar.style.setProperty('--progress', `${progress}%`); 
+            progressBar.classList.add('animated'); 
+            observer.unobserve(entry.target); 
             }
         });
         });
@@ -32,7 +36,7 @@ const TechnicalSkill = () => {
         });
     
         return () => {
-        observer.disconnect(); // Clean up the observer on component unmount
+        observer.disconnect(); 
         };
     }, []);
     
@@ -45,10 +49,15 @@ const TechnicalSkill = () => {
                 <img src={cssIcon} alt="css icon" />
                 <img src={jsIcon} alt="javascript icon" />
                 <img src={reactjsIcon} alt="react icon" />
+                <img src={reduxIcon} alt="redux icon" />
                 <img src={mongodbIcon} alt="mongodb icon" />
+                <img src={mysqlIcon} alt="mysql icon" />
                 <img src={nodeIcon} alt="node icon" />
+                <img src={graphqlIcon} alt="graphql icon" />
                 <img src={gitIcon} alt="git icon" />
                 <img src={githubIcon} alt="github icon" />
+                <img src={bitbucketIcon} alt="bitbucket icon" />
+                <img src={gitlabIcon} alt="gitlab icon" />
             </div>
         </section>
         <section id="programming-languages">
@@ -58,13 +67,18 @@ const TechnicalSkill = () => {
                 <div className="progress-bar" data-progress="80"></div>
             </div>
             <div className="skill" ref={el => skillsRef.current[1] = el}>
-                <p>MongoDB</p>
-                <div className="progress-bar" data-progress="90"></div>
+                <p>Node JS</p>
+                <div className="progress-bar" data-progress="70"></div>
             </div>
             <div className="skill" ref={el => skillsRef.current[2] = el}>
-                <p>Node JS</p>
-                <div className="progress-bar" data-progress="60"></div>
+                <p>MongoDB</p>
+                <div className="progress-bar" data-progress="85"></div>
             </div>
+            <div className="skill" ref={el => skillsRef.current[3] = el}>
+                <p>MySQL</p>
+                <div className="progress-bar" data-progress="90"></div>
+            </div>
+           
         </section>
     </div>
   );
